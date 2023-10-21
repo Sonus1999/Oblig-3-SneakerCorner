@@ -1,3 +1,9 @@
 body {
     background-color: #FCF6E5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#grid {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
 }
