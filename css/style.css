@@ -15,7 +15,8 @@ a {
 
 .grid {
     display: grid;
-    grid-template-areas: "header" "nav" "main" "footer";
+    grid-template-areas: "header" "main" "footer";
+    max-width: 2400px;
 }
 
 header {
@@ -37,7 +38,7 @@ nav {
 }
 
 #ikoner i {
-    margin: 2rem
+    margin: 2rem;
 }
 
 
@@ -62,8 +63,7 @@ nav {
     gap: 10rem;
     font-size: x-large;
     font-weight: 600;
-    padding: 0 0 0 0;
-    
+    padding: 0 0 0 0;  
 }
 
 #rodesko { 
@@ -73,12 +73,36 @@ nav {
 main {
     grid-area: main;
     padding: 3rem;
+    font-size: x-large;
+    max-width: 2400px;
+}
+
+main h1 {
+    font-size: larger;
+    margin: 0;
+}
+
+#filter {
+    font-weight: 550;
+    margin: 0.5;
 }
 
 main section article img {
     width: 100%;
 }
 
+.flexsbokser {
+    display: flex;
+    flex-direction: column;
+    background-color: #cb9595;
+    padding: 1rem;
+    gap: 30px;
+}
+
+article {
+    background-color: #fcf9e6;
+    padding: 10px;
+}
 
 footer {
     grid-area: footer;
@@ -100,7 +124,18 @@ footer ul li{
     font-weight: 600;
 }
 
-@media only screen and (min-width: 600px) {
-
+footer ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
 }
 
+
+@media only screen and (min-width: 600px) {
+    .flexsbokser {
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+}
