@@ -16,7 +16,7 @@ a {
 .grid {
     display: grid;
     grid-template-areas: "header" "main" "footer";
-    max-width: 2400px;
+    width: 100%;
 }
 
 header {
@@ -24,11 +24,6 @@ header {
     text-align: center;
     padding: 20px 0 0;
 }
-
-
-nav {
-    grid-area: nav;
-} 
 
 #logo {
     text-decoration: none;
@@ -40,7 +35,6 @@ nav {
 #ikoner i {
     margin: 2rem;
 }
-
 
 .navtag {
     background-color: rgb(251, 255, 1);
@@ -74,7 +68,6 @@ main {
     grid-area: main;
     padding: 3rem;
     font-size: x-large;
-    max-width: 2400px;
 }
 
 main h1 {
@@ -114,7 +107,6 @@ footer {
 footer h2 {
     font-size: xx-large;
     font-weight: 800;
-    text-align: 800px;
 }
 
 footer ul li{
