@@ -1,8 +1,23 @@
 # Oblig-3-SneakerCorner
 Oblig 3, Webutvikling, Sondre Jønsson 
 
+# VIKTIG info til du som vuderer
+
+Hei du som retter denne oppgaven. Desverre har jeg ikke klart å få til grid delen av oppgaven hundere prosent. Det fungerer som det skal på Desktop versjonen (Alle enheter over 985 pixler i width), men når det kommer til mindre skjermer så av en eller annen merkelig grunn blir gridet halvert. Etter altfor mange timer med WebTricks, googling og flere gjennomgåelser av gamle forelsningsoppgaver, ser jeg at jeg ikke fikk løst dette innen innleveringfristen.
+
+En workaround på dette slik at du kan se resten av oppgaven riktig, er å klikke på "Toggle device toolbar" (CTRL + SHIFT + M) av og på i nettleseren din under inspisering når du ser mobilversjonsiden blir zoomet inn under sidebytte. Dette gjør så siden blir skalert riktig slik som den var ment for å være. 
+
+Beklager så mye for dette, håper du liker oppgaven ellers!
+
 # Hvordan bruke nettiden: 
 
+For å komme til produktside, klikk på "salg" "Herre" "dame" eller "outlet"!
+
+Du kan alltid komme deg tilbake til forside ved trykke på logoen øverst!
+
+For å komme til salgside kan du klikke på teksten under produktene som ligger på forsiden, eller trykke deg vidre fra produktside ved å klikke på produktene som ligger der!
+
+Også linker til sosiale medier i Footer!
 
 # Kilder: 
 
