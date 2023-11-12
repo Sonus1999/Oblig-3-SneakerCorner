@@ -33,7 +33,8 @@ header {
 }
 
 #ikoner i {
-    margin: 2rem;
+    margin: 1rem;
+    padding: 0.2rem;
 }
 
 .navtag {
@@ -42,8 +43,8 @@ header {
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 3.5rem;
-    font-size: xx-large;
+    gap: 1.5rem;
+    font-size: x-large;
     font-weight: 600;
     padding: 0 0 0 0;
 }
@@ -54,8 +55,8 @@ header {
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 10rem;
-    font-size: x-large;
+    gap: 4rem;
+    font-size: large;
     font-weight: 600;
     padding: 0 0 0 0;  
 }
@@ -150,6 +151,11 @@ footer ul {
     display: flex;
     flex-direction: column;
     padding: 0;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;    
 }
 
 
