@@ -21,7 +21,7 @@ Også linker til sosiale medier i Footer!
 
 # Kilder: 
 
-NB!: Mye av inspirasjonen til sideoppset lært fra Ann-Charlott Beatrice Karlsen i forelesning, og brukt hennes github fra timer til dokumentasjon.
+NB!: Mye av inspirasjonen til sideoppset lært fra Ann-Charlott Beatrice Karlsen i forelesning, og brukt hennes github fra timer til dokumentasjon, også når kommer til meta data og micro data.
 
 Bruk av ikoner fra FontAwesome (linje 22-26): https://fontawesome.com/
 
