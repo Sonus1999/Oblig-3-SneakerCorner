@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sondre Jonsson">
+    <meta name="description" content="SneakerCorner™ - Billig sko, kjente merker som Nike, Adidas, Hoka etc.">
+    <link href="css/font/css/fontawesome.css" rel="stylesheet">
+    <link href="css/font/css/brands.css" rel="stylesheet">
+    <link href="css/font/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Analyse</title>
+</head>
+
+<body>
+    <div class="grid">
+        <header>
+
+            <nav>
+                <a href="index.html" id="logo">SneakerCorner™</a>
+    
+                <div id="ikoner">
+                    <i class="fa-solid fa-bars fa-2xl" style="color: #c04e44;"></i>
+                    <i class="fa-solid fa-user fa-2xl" style="color: #c04e44;"></i>                  
+                    <i class="fa-solid fa-magnifying-glass fa-2xl" style="color: #c04e44;"></i>
+                    <i class="fa-solid fa-heart fa-2xl" style="color: #c04e44;"></i>               
+                    <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #c04e44;"></i>
+                </div>
+
+                <ul class="navtag">
+                    <li><a href="produkt.html">SALG</a></li>
+                    <li><a href="produkt.html">Herre</a></li>
+                    <li><a href="produkt.html">Dame</a></li>
+                    <li><a href="produkt.html">Outlet</a></li>
+                </ul>
+
+                <ul class="Frakt">
+                    <li><a href="#">Fri frakt!</a></li>
+                    <li><a href="#">Åpent kjøp!</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <section id="nokkelord">
+                <h1>Analyse av SneakerCorner™</h1>
+                
+                <h2>Nøkkelord undersøkelse:</h2>
+                <p>Etter noen søk via Google Trends, fant jeg ut et par søkeord som ikke bare blir ofte brukt generelt i Norge, men også i Østfold område der den fysiske butikken til SneakerCorner har lokasjon. De populære søkeordene jeg fant var: Billig, Sko, Nike, Adidas, Hoka. Alle disse treffene hadde over 100+ søk i døgnet og er derfor viktig å bruke for å få flere klikk på nettsiden. Disse ordene ble valgt ut da det er kjente merker butikken har, som da belyser kundene om hva butikken selger.  </p>
+                <img src="img/trends.jpg" alt="Bilde av Trends søk" class="responsive-image">
+            </section>
+
+            <section id="lighthouse/SEO">             
+                <h2>SEO test med lighthouse:</h2>
+                <h3>Forside:</h3>
+                <img src="img/forside seo.jpg" alt="Bilde av lighthouse resultat" class="responsive-image">
+                <img src="img/forside seo2.jpg" alt="Bilde av lighthouse resultat" class="responsive-image">
+                <p>Som vi ser på de 2 bildene over fra lighthouse har forsiden 2 klager. Første feil at siden mangler meta description, som enda ikke blitt lagt inn. Andre klagen omhandler for liten tekst i header, noe som gjør det vanskelig for mobilbrukere å trykke. Den ønsker minimum 48x48px størrelse.</p>
+                
+                <h3>Produktside:</h3>
+                <img src="img/produkt seo.jpg" alt="Bilde av lighthouse resultat" class="responsive-image">
+                <p>Her er det så og si samme feil som på forsiden, bare litt større tekst i header som må rettes på.</p>
+
+                <h3>Slagside:</h3>
+                <img src="img/salg seo.jpg" alt="Bilde av lighthouse resultat" class="responsive-image">
+                <p>Her er det så og si samme feil som på forsiden, bare en del mindre tekst i header som må rettes på.</p>
+            </section>
+
+            <section id="webaim/UU">
+                <h2>UU test med webaim:</h2>
+                <h3>Forside:</h3>
+                <img src="img/forside uu.jpg" alt="Bilde av webaim resultat" class="responsive-image">
+                <p>Webaim reagerer på 2 kontrast "feil", som sier at brukere kan slite med å lese teksten. I tillegg reagerer den på en "Possible heading" (Fordi det ser ut som "Filter" skal være en overskrift, dette stemmer ikke og skulle blitt gjort om til en filterfunksjon i fremtiden) og "skipped heading level" som er pga jeg ikke har brukt "h2" tag. De resterende "klagene" går ut på at noen av header linkene linker til samme side, noe som var meningen for enklere navigasjon under demo.</p>
+                <img src="img/forside uu2.jpg" alt="Bilde av webaim resultat" class="responsive-image">
+                <p>Her ser vi kontrast feilene er markert med rød firkant i header.</p>
+                <img src="img/forside uu3.jpg" alt="Bilde av webaim resultat" class="responsive-image">
+                <p>"Possible heading" feil på top ved Filter, h2 mangel til venstre og link til lik side feil til høyre.</p>
+
+                <h3>Produktside:</h3>
+                <img src="img/produkt uu.jpg" alt="Bilde av webaim resultat" class="responsive-image">
+                <p>Her ser vi de samme feilene kom som på forside, bare at "Possible heading" ikke er her.</p>
+
+                <h3>Salgside:</h3>
+                <img src="img/slag uu.jpg" alt="Bilde av webaim resultat" class="responsive-image">
+                <p>Her ser vi de samme feilene kom som på forside, bare at et par ekstra "Possible heading" feil, dette er pga. visning av funksjoner som skulle ha kommet i framtiden på nettsiden.</p>
+                <img src="img/salg uu2.jpg" alt="Bilde av webaim resultat" class="responsive-image">
+                <p>"Possible heading" feil på tekst over.</p>
+             </section>
+
+             <section id="chatGPT">                   
+                <h2>UU og SEO test med chatGPT</h2>
+                <h3>Forside:</h3>
+                <img src="img/forside gpt SEO.jpg" alt="Bilde av chatGPT resultat" class="responsive-image">
+                <p>Her forklarer chatGPT at jeg bør ha en mer nyaktig tittel. Den reagerer også på mangel på meta som bør legges inn. Ellers minner den meg bare på å ha god struktur og legge på "alt" tagger ved bilder.</p>
+                <img src="img/forside gpt UU.jpg" alt="Bilde av chatGPT resultat" class="responsive-image">
+                <p>ChatGPT ønsker at jeg sjekker kontasten, nevner blant annet header området. Den ønsker også jeg passer på "h" strukturen min, dette klagde også webaim på. Ellers er det bare generell struktur man bør sjekke manuelt.</p>
+
+                <h3>Produktside:</h3>
+                <img src="img/produkt gpt seo.jpg" alt="Bilde av chatGPT resultat" class="responsive-image">
+                <p>ChatGPT viste samme resultat som på forside, noe som gir mening da sidene er veldig like.</p>
+                <img src="img/produkt gpt UU.jpg" alt="Bilde av chatGPT resultat" class="responsive-image">
+                <p>Samme som forside.</p>
+
+                <h3>Salgside:</h3>
+                <img src="img/salg gpt seo.jpg" alt="Bilde av chatGPT resultat" class="responsive-image">
+                <p>Også samme som forside, men nevner også "sosiale medier Open Graph Meta" for utsenede på sosiale medier.</p>
+                <img src="img/salg gpt UU.jpg" alt="Bilde av chatGPT resultat" class="responsive-image">
+                <p>Her var det mye likt akkurat som forsiden, men den nevner blant annet språk endring til norsk. </p>
+
+             </section>
+
+             <table border="1">
+                <tr>
+                    <th>lighthouse</th>
+                    <th>Webaim</th>
+                    <th>ChatGPT</th>
+                </tr>
+                <tr>
+                    <td>META tagger</td>
+                    <td>Kontrast header</td>
+                    <td>Meta tagger</td>
+                </tr>
+                <tr>
+                    <td>Header tekst størrelse</td>
+                    <td>Skipped Heading level</td>
+                    <td>Kontrast Header</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Skipped Heading level</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Nyaktig tittel</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Språk Norsk</td>
+                </tr>
+            </table>
+            <p>Vi fikk relativt like resultater fra de forskjellige sidene. ChatGPT nevnte nesten alle "feilene" lighthouse og Webaim påpekte, uten om Header tekststørrelse. ChatGPT nevnte derimot en mer nyaktig tittel og eventuel endring til Norsk språk (no).</p>
+
+        </main>
+
+        <footer>
+
+            <nav>
+                <ul>
+                    <li><a href="analyse.html">Analyse av nettside</a></li>
+                    <li><a href="#">Om SneakerCorner™</a></li>
+                    <li><a href="#">Kontakt Oss</a></li>
+                    <li><a href="#">Abonner</a></li>   
+                </ul>
+            </nav>
+
+            <h2>Sosiale medier:</h2>
+
+            <ul id="sosialemedier">             
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="https://www.youtube.com/">YouTube</a></li>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+            </ul>
+
+        </footer>
+   </div>
+</body>
+
+</html>

@@ -43,20 +43,20 @@ header {
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 1.5rem;
-    font-size: x-large;
+    gap: 0.5rem;
+    font-size: xx-large;
     font-weight: 600;
     padding: 0 0 0 0;
 }
 
 .Frakt {
-    background-color: rgb(161, 15, 15);
+    background-color: rgb(211, 208, 19);
     margin: 0;
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 4rem;
-    font-size: large;
+    gap: 1rem;
+    font-size: xx-large;
     font-weight: 600;
     padding: 0 0 0 0;  
 }
